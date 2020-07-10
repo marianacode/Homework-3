@@ -69,7 +69,7 @@ button.addEventListener('click', function () {
   const lowercase = confirm('Click OK to confirm if you would like to include a lowercase character');
   const uppercase = confirm('Click OK to confirm if you would like to include an uppercase character');
   const numeric = confirm('Click OK to confirm if you would like to include a numeric character');
-  const symbol = confirm('Click OK to confirm if you would like to include a symbols');
+  const symbol = confirm('Click OK to confirm if you would like to include symbols');
   const password = generatePassword(num, lowercase, uppercase, numeric, symbol);
   textarea.textContent = password;
 
